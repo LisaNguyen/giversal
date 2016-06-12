@@ -1,0 +1,102 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#logo img {
+    margin-top: -25%;
+    max-height: 100px;
+    max-width: 200px;
+}
+
+.headline-slogan { 
+    font-size: 2.2em;
+}
+
+.header {
+    background: url("../img/background.png") no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+#testimonial {
+    background: url("../img/testimonials.png") no-repeat center;
+    background-size: cover;
+}
+
+
+.header {
+    background-color: black;
+}
+
+.profile-icon {
+    border-radius: 10px;
+}
+
+.img-hover{
+    display: none;
+    width: 200px;
+    height: 213px;
+    position: absolute;
+    margin: 0px auto;
+}
+
+.top {
+    background-color: #F94B64;
+}
+
+
+#footer {
+    padding: 5px 0;
+}
+
+
+.btn-sub {
+    background-color: #F94B64;
+    border-color:  #F94B64;
+}
+
+.btn-sub:hover {
+    background-color: #C11B3B;
+    border-color: #C11B3B;
+}
+
+#emailID {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+.profile-icon {
+    max-height: 200px;
+    max-width: 150px;
+}
+
+#footer {
+    background: url("../img/background.png") no-repeat center;
+    background-size: cover;
+}
+
+#mainImage {
+    padding-left: 20px;
+    width: 325px;
+    height: 600px;
+    float: right;
+    margin-top: -100px;
+}
+
+
+.banner-text {
+    margin-top: 50px;
+}
+
+.createsend-button {
+    padding-top: 20px;
+    margin-left: -20px;
+}
+
+@media (max-width: 991px) {
+    #mainImage {
+    display: none;
+    }
+}
