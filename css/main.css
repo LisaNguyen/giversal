@@ -95,6 +95,10 @@ html, body {
     margin-left: -20px;
 }
 
+#charities-list {
+    padding-top: 20px;
+}
+
 @media (max-width: 991px) {
     #mainImage {
     display: none;
