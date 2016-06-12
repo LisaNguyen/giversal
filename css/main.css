@@ -99,6 +99,11 @@ html, body {
     padding-top: 20px;
 }
 
+#bigfeatures .screen {
+    width: 200px;
+    max-height: 395px;
+}
+
 @media (max-width: 991px) {
     #mainImage {
     display: none;
